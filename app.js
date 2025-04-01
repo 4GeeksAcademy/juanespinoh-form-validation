@@ -15,7 +15,7 @@ const radiosBox = document.querySelector("#checkBox");
 const radios = document.querySelectorAll('input[name="drone"]');
 
 let whiteColor="white"
-let dangerColor="red"
+let dangerColor="rgb(244,194,199)"
 
 function checkIfRadioSelected() {
   let radiHaveAValue = false;
